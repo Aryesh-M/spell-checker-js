@@ -1,0 +1,13 @@
+#text {
+    min-height: 100px;
+    border: 1px solid #ccc;
+  }
+  #text .correct {
+    border-bottom: 2px solid green;
+  }
+  #text .misspelled {
+    border-bottom: 2px solid red;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+  }
